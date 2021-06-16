@@ -1,0 +1,260 @@
+/*
+common
+*/
+
+body {
+    background-color: #06090f;
+    color: #ffffff;
+}
+
+.fadeout {
+    opacity: 0;
+    -webkit-transition: opacity .8s ease;
+    transition: opacity .8s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+.top {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: -8px;
+    margin-bottom: 1%;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.top a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5% 1%;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#top_home {
+    float: left;
+}
+
+.top a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* 
+index.html
+*/
+
+#index_img {
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 40%;
+}
+
+#main {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main_icon {
+    margin-top: 5%;
+}
+
+.main_link {
+    margin-left: 2%
+}
+
+#link {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link_box {
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid #ffffff;
+    font-size: 24px;
+}
+
+.link_box:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/*
+profile.html
+*/
+
+.profile {
+    display: flex;
+}
+
+#profile_icon {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#profile_content {
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile_name {
+    font-size: 32px;
+}
+
+#profile_text {
+    font-size: 24px;
+}
+
+.profile_img {
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+#history {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+
+/*
+source code: https://copypet.jp/2045/
+*/
+
+.cp_timeline03 {
+    position: relative;
+    margin: 3em auto;
+}
+
+.cp_timeline03:before {
+    position: absolute;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    content: '';
+    background-color: #ffffff;
+    left: 30px;
+}
+
+.cp_timeline03 .timeline_group {
+    position: relative;
+    padding-top: 55px;
+}
+
+.cp_timeline03 .timeline_group:not(:first-of-type) {
+    margin-top: 2.5rem;
+}
+
+.cp_timeline03 .time_year {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background-color: #333;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cp_timeline03 .timeline_item {
+    margin-bottom: 1em;
+    position: relative;
+    padding-left: 80px;
+}
+
+.cp_timeline03 .timeline_item:not(:last-of-type) {
+    margin-bottom: 2em;
+}
+
+.cp_timeline03 .timeline_item:before {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    content: '';
+    background-color: #ffffff;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.cp_timeline03 .time {
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    min-width: 65px;
+    min-height: 65px;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    top: 50%;
+    margin-top: -33px;
+    border-radius: 65px;
+}
+
+.cp_timeline03 .time_day {
+    font-size: 1em;
+    font-weight: 700;
+    display: block;
+    margin-top: 12px;
+}
+
+.cp_timeline03 .time_month {
+    font-size: 0.8em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.cp_timeline03 .desc {
+    padding: 0.5em 1em;
+    border-left: 3px solid #333;
+    border-radius: 2px;
+    background-color: #333;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cp_timeline03 .desc .flag {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.3em;
+}
+
+#poster {
+    color: #a9ceec
+}
